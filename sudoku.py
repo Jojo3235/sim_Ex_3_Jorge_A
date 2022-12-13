@@ -1,3 +1,5 @@
+#https://github.com/Jojo3235/sim_Ex_3_Jorge_A.git
+
 import numpy as np
 sudoku = np.array([[5, ' ', ' ', ' ', 4, ' ', ' ', ' ', 9],
                    [' ', 2, ' ', ' ', 1, ' ', 6, 8, ' '],
