@@ -12,16 +12,9 @@ sudoku = np.array([[5, ' ', ' ', ' ', 4, ' ', ' ', ' ', 9],
 #comprobamos que no haya números repetidos en las filas, columnas ni cuadrados
 def comprobar_filas_sudoku(sudoku):
     for i in range(9):
-        for j in range(9):
-            for k in range(9):
-                for l in range(9):
-                    if sudoku[i][j] == sudoku[k][l] and i != k and j != l:
-                        return False
-    return True
+        if i in sudoku[i]:
+            return False
 
-def comprobar_filas_sudoku(sudoku):
-    for i in range(9):
-        if 
 
 print(sudoku)
 print(comprobar_sudoku(sudoku))
